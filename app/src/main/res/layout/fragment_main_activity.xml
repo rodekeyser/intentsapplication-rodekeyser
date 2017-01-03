@@ -3,19 +3,89 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context="com.intents.intentsapplication.fragments.MainActivityFragment">
+    tools:context="com.intents.intentsapplication.fragments.MainActivityFragment"
+    android:background="@color/colorPrimaryDark">
 
     <Button
         android:layout_width="match_parent"
-        android:layout_height="50dp"
-        android:layout_margin="20dp"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:layout_margin="10dp"
         android:text="@string/speech_button_text"
-        android:id="@+id/push_to_talk"/>
+        android:id="@+id/push_to_talk"
+        android:background="@color/colorPrimary"
+        android:textColor="@android:color/white"
+        android:textSize="20dp"/>
     <TextView
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3"
         android:text="@string/hello"
         android:id="@+id/output_speech"
-        android:gravity="center"/>
+        android:gravity="center"
+        android:textSize="20dp"
+        android:textColor="@android:color/white"
+        android:layout_margin="10dp"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:text="@string/fill_in_text"
+        android:gravity="center"
+        android:background="@color/colorPrimary"
+        android:layout_margin="10dp"
+        android:textColor="@android:color/white"
+        android:id="@+id/url_text"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:layout_margin="10dp"
+        android:text="@string/url_button_text"
+        android:id="@+id/push_to_url"
+        android:background="@color/colorPrimary"
+        android:textColor="@android:color/white"
+        android:textSize="20dp"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:layout_margin="10dp"
+        android:text="@string/contacts_button_text"
+        android:id="@+id/push_to_contacts"
+        android:background="@color/colorPrimary"
+        android:textColor="@android:color/white"
+        android:textSize="20dp"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:layout_margin="10dp"
+        android:text="@string/dialer_button_text"
+        android:id="@+id/push_to_dialer"
+        android:background="@color/colorPrimary"
+        android:textColor="@android:color/white"
+        android:textSize="20dp"/>
 
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:text="@string/fill_in_google"
+        android:gravity="center"
+        android:background="@color/colorPrimary"
+        android:layout_margin="10dp"
+        android:textColor="@android:color/white"
+        android:id="@+id/google_search_text"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:layout_margin="10dp"
+        android:text="@string/command_button_text"
+        android:id="@+id/push_to_command"
+        android:background="@color/colorPrimary"
+        android:textColor="@android:color/white"
+        android:textSize="20dp"/>
 </LinearLayout>

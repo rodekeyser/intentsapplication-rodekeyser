@@ -5,5 +5,10 @@
     <string name="hello">Hello! Please click on the button above and then say something.</string>
     <string name="speech_button_text">Push to talk</string>
     <string name="not_supported">Sorry! Your device doesn\'t support speech input</string>
-
+    <string name="fill_in_text">Add your URL here...</string>
+    <string name="url_button_text">Go to url</string>
+    <string name="contacts_button_text">Go to contacts</string>
+    <string name="dialer_button_text">Go to dialer</string>
+    <string name="command_button_text">Push to talk and open</string>
+    <string name="fill_in_google">Search on Google..</string>
 </resources>
