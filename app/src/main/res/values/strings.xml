@@ -1,3 +1,9 @@
 <resources>
-    <string name="app_name">IntentsApplication</string>
+    <string name="app_name">Speech Helper</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello">Hello! Please click on the button above and then say something.</string>
+    <string name="speech_button_text">Push to talk</string>
+    <string name="not_supported">Sorry! Your device doesn\'t support speech input</string>
+
 </resources>
